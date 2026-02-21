@@ -2,9 +2,8 @@
   "name": "typescript-design-patterns",
   "version": "1.0.0",
   "description": "Repository for Design Patterns",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html"
   },
   "Repository": {
     "type": "git",
@@ -13,5 +12,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "prettier": "3.8.1"
+  }
 }
